@@ -46,7 +46,7 @@ export const Navbar = () => {
           >
             <a
               target="_blank"
-              href="https://github.com/nilabjo/realitycheck"
+              href="https://github.com/cyberserk7/realitycheck"
               className="font-semibold"
             >
               <Github />
