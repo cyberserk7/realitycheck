@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export const Navbar = () => {
   const [isLinkCopied, setIsLinkCopied] = useState(false);
-  const shareLink = "https://www.nilabjo.com/";
+  const shareLink = "https://realitycheck.nilabjo.com/";
 
   const handleShare = async () => {
     if (navigator.share) {
@@ -25,6 +25,7 @@ export const Navbar = () => {
         setTimeout(() => setIsLinkCopied(false), 2000);
       } catch (error) {
         window.open(shareLink, "_blank");
+        console.log("Copied to clipboard:", error);
       }
     }
   };
