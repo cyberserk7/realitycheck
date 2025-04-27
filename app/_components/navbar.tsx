@@ -35,13 +35,13 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between w-full">
         <div className="flex items-center gap-2">
           <Quote className="text-purple-500" strokeWidth={1.5} />
-          <h1 className="font-medium text-xl">RealityCheck</h1>
+          <h1 className="font-medium text-lg md:text-xl">RealityCheck</h1>
         </div>
         <div className="flex items-center gap-2">
           <Button
             variant={"secondary"}
             size={"sm"}
-            className="rounded-sm font-semibold cursor-pointer"
+            className="rounded-sm font-semibold cursor-pointer hidden md:block"
             asChild
           >
             <a
