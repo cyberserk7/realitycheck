@@ -152,7 +152,7 @@ export const IoSection = () => {
             <Textarea
               disabled={loading}
               className="focus-visible:ring-0 shadow-none border-none outline-none focus:ring-0 w-full p-0 placeholder:text-[#9CA3AF]"
-              placeholder="Ask RealityChecker"
+              placeholder="Ask RealityCheck"
               value={value}
               onChange={(e) => setValue(e.target.value)}
             />
@@ -161,7 +161,6 @@ export const IoSection = () => {
                 className="bg-[#374151] hover:bg-[#374151] cursor-pointer"
                 onClick={handleGenerate}
                 disabled={loading}
-                // size={"icon"}
               >
                 Send Message
                 <SendHorizonal className="size-4 " />
