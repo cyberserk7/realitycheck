@@ -69,7 +69,6 @@ export const IoSection = () => {
     } catch (error) {
       console.error("API Error:", error);
       toast.error("Something went wrong, please try again later.");
-      responses.pop();
       setRespones([...responses]);
     } finally {
       setLoading(false);
