@@ -43,7 +43,10 @@ export const Navbar = () => {
             className="rounded-sm font-semibold cursor-pointer"
             asChild
           >
-            <a target="_blank" href="">
+            <a
+              target="_blank"
+              href="https://github.com/cyberserk7/realitycheck"
+            >
               <Github />
               Github
             </a>
