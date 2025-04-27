@@ -42,9 +42,16 @@ export const Navbar = () => {
             variant={"secondary"}
             size={"sm"}
             className="rounded-sm font-semibold cursor-pointer hidden md:flex"
+            asChild
           >
-            <Github />
-            Github
+            <a
+              target="_blank"
+              href="https://github.com/nilabjo/realitycheck"
+              className="font-semibold"
+            >
+              <Github />
+              Github
+            </a>
           </Button>
           <Button
             variant={"secondary"}
