@@ -41,16 +41,10 @@ export const Navbar = () => {
           <Button
             variant={"secondary"}
             size={"sm"}
-            className="rounded-sm font-semibold cursor-pointer hidden md:block"
-            asChild
+            className="rounded-sm font-semibold cursor-pointer hidden md:flex"
           >
-            <a
-              target="_blank"
-              href="https://github.com/cyberserk7/realitycheck"
-            >
-              <Github />
-              Github
-            </a>
+            <Github />
+            Github
           </Button>
           <Button
             variant={"secondary"}
